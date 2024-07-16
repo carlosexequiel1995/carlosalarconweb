@@ -4,8 +4,8 @@
   "type": "module",
   "packageManager": "pnpm@9.1.4",
   "author": {
-    "name": "Elian Van Cutsem",
-    "email": "hello@elian.codes",
+    "name": "Carlos Alarcón Seguel",
+    "email": "carlos.alarcon.s@usach.cl",
     "url": "https://carlosalarcon.vercel.app/"
   },
   "homepage": "https://carlosalarcon.vercel.app/",
