@@ -6,9 +6,9 @@
   "author": {
     "name": "Elian Van Cutsem",
     "email": "hello@elian.codes",
-    "url": "https://www.elian.codes/"
+    "url": "https://carlosalarcon.vercel.app/"
   },
-  "homepage": "https://brutal.elian.codes",
+  "homepage": "https://carlosalarcon.vercel.app/",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
