@@ -4,22 +4,15 @@ interface Props {
 }
 
 const navigationItems = [
-  { name: 'Inicio', url: '/' },
-  { name: 'Blog', url: '/blog/' },
+  { name: 'Inicio', url: '/' }
 ];
 
 const socialIcons = [
   {
-    name: 'GitHub',
-    url: 'https://github.com/eliancodes/brutal',
-    icon: 'i-uil-github',
-  },
-  {
-    name: 'Twitter',
-    url: 'https://www.twitter.com/eliancodes',
-    icon: 'i-uil-twitter',
-  },
-  { name: 'RSS', url: '/feed.xml', icon: 'i-uil-rss' },
+    name: 'LinkedIN',
+    url: 'https://www.linkedin.com/in/carlos-alarc%C3%B3n-b68942197/',
+    icon: 'i-uil-linkedin',
+  }
 ];
 
 const { pageTitle } = Astro.props;
@@ -64,8 +57,6 @@ const { pageTitle } = Astro.props;
   </nav>
   <nav class='md:hidden flex'>
     <h2 class='hidden'>Mobile Navigation</h2>
-    <ul>
-      <li><a href='/blog/'>Blog</a></li>
-    </ul>
+    
   </nav>
 </header>
