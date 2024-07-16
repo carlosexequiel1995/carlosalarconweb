@@ -70,21 +70,7 @@ const builtWith = [
             Un poco de mi
           </h2>
           <p class='poppins'>
-            
-            Soy especialista en
-            <ul class="list-disc ml-10">
-                <li>Termodinámica y diseño de máquinas térmicas, climatización</li>
-                <li>Diseño computarizado CAD (Freecad, Autocad, Solidworks, Inventor)</li>
-                <li>Simulación de fluidos Computarizado (CFD) en software como Ansys Fluent y OpenFoam</li>
-                <li>Diseño de redes de tuberías y bombas (Piping)</li>
-                <li>Ingeniería de Mantenimiento</li>
-                <li>Ingeniería de Operaciones</li>
-                <li>Diseño estructural y de máquinas</li>
-                <li>Consultoría de negocios en logística,mantenimiento, contratos, RR.HH., cadena de abastecimiento, ventas, finanzas y proyectos</li>
-            </ul>
-          
-          
-            Mi interés es utilizar las herramientas más adecuadas para apoyar el desarrollo industrial y sostenible en el país.
+            Soy Carlos Alarcón, tengo 29 años, desde pequeño sentí la necesidad de entender en profundidad los procesos que sucedían a mi alrededor por lo que cuando joven decidí estudiar algo relacionada con la física, ya que era algo que podía ser verdadero en cualquier parte del universo, así es como comencé mi carrera como Ingeniero Civil Mecánico, en el camino me di cuenta de que para entender nuestra realidad, existían muchos procesos y aristas más allá de lo evidente y entendí la importancia de gestión empresarial, administración y su importancia en el desarrollo del país y sus comunidades.           
           
             
 
@@ -96,7 +82,7 @@ const builtWith = [
   
         <Card>
           <h2 class='text-2xl md:text-4xl lg:text-6xl mb-8 dm-serif'>
-            Brutal is built with
+            Este sitió fue creado con las siguientes herramientas.
           </h2>
           <ul class='flex gap-4 flex-wrap'>
             {
@@ -121,60 +107,58 @@ const builtWith = [
      
         <Card>
           <h2 class='text-2xl md:text-4xl lg:text-6xl mb-8 dm-serif'>
-            Brutal is built with
+            Mis competencias.
           </h2>
-          <p >
-            Brutal is a theme built with Astro, UnoCSS by <a
-              href='https://www.elian.codes/'>Elian</a
-            >. It's a simple, fast, and modern theme that is easy to use and
-            customize. Mainly meant to power blogs and personal websites.
-          </p>
+          Soy especialista en
+          <ul class="list-disc ml-10">
+              <li>Termodinámica y diseño de máquinas térmicas, climatización</li>
+              <li>Diseño computarizado CAD (Freecad, Autocad, Solidworks, Inventor)</li>
+              <li>Simulación de fluidos Computarizado (CFD) en software como Ansys Fluent y OpenFoam</li>
+              <li>Diseño de redes de tuberías y bombas (Piping)</li>
+              <li>Ingeniería de Mantenimiento</li>
+              <li>Ingeniería de Operaciones</li>
+              <li>Diseño estructural y de máquinas</li>
+              <li>Consultoría de negocios en logística,mantenimiento, contratos, RR.HH., cadena de abastecimiento, ventas, finanzas y proyectos</li>
+              <li>Ingeniería de Datos</li>
+              <li>ERP: SAP, Oracle</li>
+              <li>Desarrollo de Software</li>
+
+            </ul>
+        
+        
+          Mi interés es utilizar las herramientas más adecuadas para apoyar el desarrollo industrial y sostenible en el país.
         </Card>
       
     </section>
 
     <section class='mt-8 grid md:grid-cols-3 gap-8'>
-      <div class='col-span-2'>
-        <Card>
-          <h2 class='text-2xl md:text-4xl lg:text-6xl mb-8 dm-serif'>
-            Brutal is built with
-          </h2>
-          <ul class='flex gap-4 flex-wrap'>
-            {
-              builtWith.map((item) => (
-                <li>
-                  <Pill>
-                    <a
-                      class='sanchez'
-                      href={item.url}
-                      target='_blank'
-                      title={`Go to ${item.name}`}
-                    >
-                      {item.name}
-                    </a>
-                  </Pill>
-                </li>
-              ))
-            }
-          </ul>
-        </Card>
-      </div>
-      <div >
-        <Card>
-          <h2 class='text-2xl md:text-4xl lg:text-6xl mb-8 dm-serif'>
-            Brutal is built with
-          </h2>
-          <p >
-            Brutal is a theme built with Astro, UnoCSS by <a
-              href='https://www.elian.codes/'>Elian</a
-            >. It's a simple, fast, and modern theme that is easy to use and
-            customize. Mainly meant to power blogs and personal websites.
-          </p>
-        </Card>
-      </div>
+      
       <div class='col-span-3 object-center justify-center place-items-centers'>
         <Card>
-          <Image src={myImage3} class="content-center justify-center" alt="Una descripción de mi imagen." />
+          <h2 class='text-2xl md:text-4xl lg:text-6xl mb-8 dm-serif'>
+            Clientes
+          </h2>
+          <div class="flex overflow-hidden space-x-16">
+            <div class="flex space-x-16 animate-loop-scroll">
+              <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Codelco_logo.svg" class="min-w-40" alt="Image 1" />
+              <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Mallplaza_2016_vertical.svg" class="max-w-40" alt="Image 2" />
+              <img loading="lazy" src="https://s3-symbol-logo.tradingview.com/vina-concha-y-toro--big.svg" class="min-w-40" alt="Image 3" />
+              <img loading="lazy" src="https://www.alog.cl/wp-content/uploads/2021/10/Logo-Saam.png" class="max-w-40" alt="Image 4" />
+              <img loading="lazy" src="https://construmartcl.vtexassets.com/arquivos/logo-header-cmtpro.png" class="max-w-70" alt="Image 5" />
+              <img loading="lazy" src="http://subus.cl/wp-content/uploads/2021/06/LogotipoFooter3.png" class="max-w-70" alt="Image 6" />
+
+            </div>
+            <div class="flex space-x-16 animate-loop-scroll" aria-hidden="true">
+              <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Codelco_logo.svg" class="min-w-40" alt="Image 1" />
+              <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Mallplaza_2016_vertical.svg" class="max-w-40" alt="Image 2" />
+              <img loading="lazy" src="https://s3-symbol-logo.tradingview.com/vina-concha-y-toro--big.svg" class="min-w-40" alt="Image 3" />
+              <img loading="lazy" src="https://www.alog.cl/wp-content/uploads/2021/10/Logo-Saam.png" class="max-w-40" alt="Image 4" />
+              <img loading="lazy" src="https://construmartcl.vtexassets.com/arquivos/logo-header-cmtpro.png" class="max-w-70" alt="Image 5" />
+              <img loading="lazy" src="http://subus.cl/wp-content/uploads/2021/06/LogotipoFooter3.png" class="max-w-70" alt="Image 6" />
+
+            
+            </div>
+          </div>
         </Card>
       </div>
       
